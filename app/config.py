@@ -17,3 +17,16 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
+
+print("=" * 50)
+print("HOSTNAME:", settings.database_hostname)
+print("DATABASE:", settings.database_name)
+print("USERNAME:", settings.database_username)
+print("=" * 50)
+
+settings = Settings()
+
+print("HOSTNAME:", settings.database_hostname)
+print("DATABASE:", settings.database_name)
+print("USERNAME:", settings.database_username)
